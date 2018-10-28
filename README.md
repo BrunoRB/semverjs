@@ -7,19 +7,19 @@ Semantic Versioning 2.0.0 utility library:
 
 ## Installing / Running
 
-`yarn install semverjs`
+`yarn install @brunorb/semverjs`
 
 ||
 
-`npm install semverjs`
+`npm install @brunorb/semverjs`
 
 ### Node.JS:
 
-    const SemverJS = require('semverjs');
+    const SemverJS = require('@brunorb/semverjs');
 
 ### Browser:
 
-    <script src="/src/main.js"><script>`
+    <script src="@brunorb/semverjs/src/main.js"><script>`
     <script>
     SemverJS...
     </script>
