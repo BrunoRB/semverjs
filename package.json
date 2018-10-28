@@ -1,0 +1,30 @@
+{
+	"name": "semverjs",
+	"version": "1.0.0",
+	"description": "Semantic Versioning 2.0.0 utility library",
+	"keywords": [
+		"semver",
+		"Semantic Versioning"
+	],
+	"homepage": "https://github.com/BrunoRB/semverjs",
+	"license": "MIT",
+	"author": {
+	  "name": "Bruno Roberto Búrigo",
+	  "url": "https://brunorb.com"
+	},
+	"main": "src/main.js",
+	"browser": "src/main.js",
+	"repository": {
+	  "type": "git",
+	  "url": "https://github.com/BrunoRB/semverjs"
+	},
+	"scripts": {
+		"lint": "node_modules/.bin/eslint -c .eslintrc.json src/",
+		"test": "node_modules/.bin/mocha test/"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"eslint": "^5.8.0",
+		"mocha": "^5.2.0"
+	}
+}
