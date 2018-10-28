@@ -89,19 +89,20 @@
 				return sa.patch < sb.patch ? -1 : 1;
 			}
 			else if (sa.preRelease && sb.preRelease) {
-				var isDigit = /\d+/;
+				var isDigit = /^\d+$/;
 				var preA = sa.preRelease.split('.');
 				var preB = sb.preRelease.split('.');
 
 				for (var i=0; i<preA.length; i++) {
-					var va = preA[i];
-					var vb = preB[i];
-
 					// equal until now and a has more fields
 					if (i + 1 > preB.length) {
 						return 1;
 					}
-					else if (isDigit.test(va) && isDigit.test(vb)) {
+
+					var va = preA[i];
+					var vb = preB[i];
+
+					if (isDigit.test(va) && isDigit.test(vb)) {
 						va = parseInt(va, 10);
 						vb = parseInt(vb, 10);
 						if (va < vb) {
