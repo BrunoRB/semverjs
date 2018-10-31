@@ -7,7 +7,7 @@ Semantic Versioning 2.0.0 utility library:
 
 ## Installing / Running
 
-`yarn install @brunorb/semverjs`
+`yarn add @brunorb/semverjs`
 
 ||
 
