@@ -1,6 +1,6 @@
 {
 	"name": "@brunorb/semverjs",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Semantic Versioning 2.0.0 utility library",
 	"keywords": [
 		"semver",
